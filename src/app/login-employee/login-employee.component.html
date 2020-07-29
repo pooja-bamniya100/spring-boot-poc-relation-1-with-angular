@@ -1,0 +1,37 @@
+
+
+<div class="row">  
+    <div class="col-sm-4"></div>  
+    <div class="col-sm-4" >  <h3>Login Form</h3>
+    <div style="width: 400px;" >  
+   
+            <form (ngSubmit)="login()"> 
+              
+             <div>    
+                    <label for="name">Username</label>  
+                    <input type="text" class="form-control"  [(ngModel)]="emp_username" name="username" 
+                    data-toggle="tooltip"   data-placement="right" title="Enter your Username" >  
+                    
+                </div>  
+        
+       <div >  
+          <label for="name">Password</label>  
+          <input type="password" class="form-control" [(ngModel)]="emp_password" name="password" 
+          data-toggle="tooltip"   data-placement="right" title="Enter your  password" >   
+            
+         
+
+      </div>  <div>
+        <table>
+            <tr>
+              <td> <button type="submit" class="btn btn-success">SignIn</button> </td>
+            
+            </tr>
+          </table>
+      </div>
+      
+     
+    </form></div>
+    </div>
+   </div>
+   
